@@ -1,0 +1,114 @@
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+body {
+  color: #40514e;
+  margin: 0px;
+  /* set everything in the body part at center EXCEPT for those elements with WIDTH */
+  text-align: center;
+  font-family: 'Odibee Sans';
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  /* If there is WIDTH property u have to use auto margin to make it middle */
+  /* margin: 0 auto 0 auto; */
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+p {
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+img {
+  padding: 20px;
+  position: static;
+  width: 150px;
+  height: 150px;
+}
+
+#intro {
+  color: #66BFBF;
+  font-size: 3rem;
+}
+
+.intro {
+    margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-summary {
+  clear: none;
+}
+
+.contact-message {
+  width: 50%;
+}
+
+.btn {
+  margin: 50px auto 50px;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+  padding: 20px auto;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright-message {
+  font-size: 20px;
+}
